@@ -91,6 +91,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 ```
 
+
 ### Step 7: Setup EKS Cluster
 ``` shell
 eksctl create cluster --name three-tier-cluster --region us-west-2 --node-type t2.medium --nodes-min 2 --nodes-max 2
