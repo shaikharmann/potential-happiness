@@ -187,7 +187,7 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
 
 kubectl get deployment -n kube-system aws-load-balancer-controller
 
-kubectl apply -f full_stack_lb.yaml
+kubectl apply -f Kubernetes-Manifests-Files/
 ```
 
 ---
